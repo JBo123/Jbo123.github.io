@@ -1,0 +1,146 @@
+body{
+    font-family: "narkiss-yair-variable", sans-serif;
+    font-variation-settings: "MONO" 0, "wght" 400;
+    background-color: black;
+    color: white;
+    position: absolute;
+  
+    background-image:url('imgs/background_logo.svg');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position:100% 0;
+}
+img{
+    width: auto;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head{ 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;  
+}
+.heading{
+    padding-left: 25%;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.heading2{
+    padding-left: 26%;
+    font-size: 35px;
+    font-weight: 200;
+    color: rgb(218, 173, 73);
+   
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    width: 50%;
+    height: 250px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 25px;
+    padding: 1%;
+    background-color: whitesmoke;
+    color: black;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.button-contact{
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:white;
+    background-color: white;
+    color: black;
+    margin-top: 5%;  
+    margin-left: 0%;
+    font-size: 18px;
+}
+
+.button-git{
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:white;
+    background-color: white;
+    color: black;
+    margin-top: 5%;  
+    font-size: 18px;      
+    margin-left: 10%;
+}
+.button-git:hover {
+    background-color: rgb(47, 86, 118);    
+    color: white;
+}
+.button-contact:hover {
+    background-color: rgb(132, 178, 175);    
+    color: white;
+}
+/*animation*/
+div {
+    opacity: 0;
+    left: 100%;
+    transition: opacity 900ms ease-in;
+}
+
+.show-time div {
+    opacity: 1;
+    left: 0%;
+
+}
+/*animation*//*animation*/
+.contentContact{
+    display: flex;
+    justify-content: space-evenly; 
+   margin: 10%;
+}
+#contentEmail{
+    margin: 5%;
+}
+.contact{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 0%;
+    color: white;
+}
+img{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+}
+#copy2-button{
+    border-radius: 40px;
+    width: 35px;
+    height: 35px;
+    border-style: solid;
+    border-color:white;
+    background-color: white;
+    color: white;  
+}
+#copy1-button{
+    border-radius: 40px;
+    width: 35px;
+    height: 35px;
+    border-style: solid;
+    border-color:white;
+    background-color: white;
+    color: white;  
+}

@@ -4,11 +4,15 @@ body{
     background-color: black;
     color: white;
     position: absolute;
-  
+
     background-image:url('imgs/background_logo.svg');
     background-repeat: no-repeat;
     background-size: 60%;
+    
     background-position:100% 0;
+}
+background-image{
+    opacity: 0.8;
 }
 img{
     width: auto;
@@ -25,7 +29,7 @@ img{
     margin: 0%;  
 }
 .heading{
-    padding-left: 25%;
+    padding-left: 10%;
     font-size: 70px;
     font-weight: 500;
     margin-bottom: 30px;
@@ -42,23 +46,37 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: none;
     border-radius: 15px;
     width: 50%;
     height: 250px;
+    
     font-weight: 300;
     letter-spacing: 2px;
 }
 p{
     font-size: 25px;
     padding: 1%;
-    background-color: whitesmoke;
-    color: black;
+    background-color: none;
+    opacity: 0;
+    color: none;
 }
 .buttons{
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: space-evenly;  
+}
+.button-aboutMe{
+     width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:white;
+    background-color: white;
+    color: black;
+    margin-top: 5%;  
+    margin-left: 0%;
+    font-size: 18px;
 }
 .button-contact{
     width: 300px;
@@ -83,7 +101,7 @@ p{
     color: black;
     margin-top: 5%;  
     font-size: 18px;      
-    margin-left: 10%;
+    margin-left: 0%;
 }
 .button-git:hover {
     background-color: rgb(47, 86, 118);    
@@ -92,6 +110,9 @@ p{
 .button-contact:hover {
     background-color: rgb(132, 178, 175);    
     color: white;
+}
+.button-aboutMe:hover{
+    background-color: rgb(211, 175, 90);
 }
 /*animation*/
 div {
@@ -109,16 +130,20 @@ div {
 .contentContact{
     display: flex;
     justify-content: space-evenly; 
-   margin: 10%;
+ 
 }
 #contentEmail{
     margin: 5%;
 }
+#space1, #space2, #space3, #space4{
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
 .contact{
     display: flex;
     justify-items: center;
-    align-items: center;
-    padding: 0%;
+    align-items: center;  
     color: white;
 }
 img{
@@ -143,4 +168,12 @@ img{
     border-color:white;
     background-color: white;
     color: white;  
+}
+/*page 2*/
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
 }

@@ -9,32 +9,37 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="logo"><img src="/Imgs/logoJKWhite.png" alt="logoJKWhite"></div>
     <div class="text">
    <div class="head"> 
         <div class="heading">Hi, Im Jakub Klucky</div>
         <div class="heading2">Lidl developer</div>
    </div>
-   <div class="content"><p>laborum et ea, aliquam saepe eveniet. Odio labore, nisi quaerat quia sint laboriosam delectus. Loem ipsum dolor sit amet consectetur adipisicing elit. Labore, harum animi nobis ab modi facere dicta nemo quidem nesciunt recusandae laudantium voluptates eos ipsum quisquam ad? Tempora tempore ipsam illo.</p></div>
+   <div class="content"><p>co quidem nesciunt recusandae laudantium voluptates eos ipsum quisquam ad? Tempora tempore ipsam illo.</p></div>
 </div>
 
 <div class="buttons">
-    <button onclick="window.location.href='#contentNumber'" class="button-contact">Contact</button>
+    <button onClick="document.getElementById('space1').scrollIntoView({behavior: 'smooth'});"  class="button-aboutMe">About Me</button>
+    <button onClick="document.getElementById('space2').scrollIntoView({});"  class="button-contact">Contact</button>
     <button onclick="GitLoad()" class="button-git">Github</button>
 </div>
-<div class="contentContact">
+<div id="space1">-</div>
+<div class="about me"> Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint mollitia aut. Reprehenderit officia quia eligendi provident nulla ducimus iste ex, quod quam, laborum fuga ea similique ipsam asperiores repellendus.</div>
+<div id="space2">_</div>
+<div class="contentContact">    
     <div class="contact">
         <div>email: </div>
         <div  id="contentEmail">jakub.klucky05@gmail.com</div>
         <button id="copy1-button"> <img src="imgs/copy-svgrepo-com.svg" alt="copy icon"></button> 
     </div>
-   
     <div class="contact">
         <div>Phone Number: </div>
         <div id="contentNumber">+420 734 701 234</div>
       <button id="copy2-button"> <img src="imgs/copy-svgrepo-com.svg" alt="copy icon"></button>     
     </div>
-</div>  
+</div> 
+<div id="space3">_</div>
+<div class="page2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At id tenetur facilis, cumque ea magni, atque beatae saepe, quaerat odit consectetur vero consequuntur eum laborum provident corrupti dignissimos? Eaque, reprehenderit.</div>
+<div id="space4">_</div>
 <SCRipt src="copy.js"></SCRipt>
     <script defer src="first.js"></script>
 </body>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Vrstva 1" xmlns="http://www.w3.org/2000/svg" width="110.79mm" height="291.93mm" viewBox="0 0 314.05 827.53">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #daae49;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 45px;
+      }
+    </style>
+  </defs>
+  <line class="b" x1="134.18" y1="22.5" x2="134.18" y2="615.42"/>
+  <path class="b" d="m22.5,436.48c16.84,127.32,55.16,366.36,114.73,368.54,69.43,2.55,133.26-317.94,154.32-431.49"/>
+</svg>

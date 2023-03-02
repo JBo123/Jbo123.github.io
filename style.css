@@ -1,3 +1,4 @@
+
 body{
     font-family: "narkiss-yair-variable", sans-serif;
     font-variation-settings: "MONO" 0, "wght" 400;
@@ -7,12 +8,9 @@ body{
 
     background-image:url('imgs/background_logo.svg');
     background-repeat: no-repeat;
-    background-size: 55%;
+    background-size: 50%;
     
     background-position:100% 0;
-}
-background-image{
-    opacity: 0.8;
 }
 
 .text{
@@ -24,16 +22,15 @@ background-image{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0%;  
 }
 .heading{
-    padding-left: 10%;
+    padding-left: 0%;
     font-size: 70px;
     font-weight: 500;
     margin-bottom: 5%;
 }
 .heading2{
-    padding-left: 10%;
+    padding-left: 0%;
     font-size: 35px;
     font-weight: 200;
     color: rgb(218, 173, 73);
@@ -62,45 +59,44 @@ p{
     justify-content: space-evenly;  
 }
 .about-me{
- display: flex;
- align-items: center;
- justify-content: center;
+margin-left: 10%;
+width: 80%;
 
 }
 .button-aboutMe{
-     width: 300px;
+     width: 260px;
     height: 70px;
     border-radius: 10px;
     border-style: solid;
     border-color:white;
     background-color: white;
     color: black;
-    margin-top: 5%;  
+    margin-top: 0%;  
     margin-left: 0%;
     font-size: 18px;
 }
 .button-contact{
-    width: 300px;
+    width: 260px;
     height: 70px;
     border-radius: 10px;
     border-style: solid;
     border-color:white;
     background-color: white;
     color: black;
-    margin-top: 5%;  
+    margin-top: 0%;  
     margin-left: 0%;
     font-size: 18px;
 }
 
 .button-git{
-    width: 300px;
+    width: 260px;
     height: 70px;
     border-radius: 10px;
     border-style: solid;
     border-color:white;
     background-color: white;
     color: black;
-    margin-top: 5%;  
+    margin-top: 0%;  
     font-size: 18px;      
     margin-left: 0%;
 }
@@ -132,12 +128,15 @@ div{
  justify-content: space-evenly;
  
 }
+.about-me-text{
+font-size: 150%;
+}
 #contentEmail{
-    font-size: 200%;
+    font-size: 150%;
     margin: 2%;
 }
 #contentNumber{
-    font-size: 200%;
+    font-size: 150%;
     margin: 2%;
 }
 #space1, #space2, #space3, #space4{
@@ -145,7 +144,7 @@ div{
     margin-bottom: 25%;
 }
 .email-phone{
-    font-size: 200%;
+    font-size: 150%;
 }
 .contact{
     display: flex;
@@ -190,13 +189,13 @@ margin-top: 20%;
 .skilsDiv1{
     display: flex;
     margin: auto;
-    width: 70%;
+    width: 80%;
     padding: 10px;
 }
 .skilsDiv2{
     display: flex;
     margin: auto;
-    width: 70%;
+    width: 80%;
     padding: 10px;
 }
 .imgLogo{
